@@ -139,16 +139,10 @@
             <ul class="nav navbar-nav">
                 <li><a href="#summary-container">讲师</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">作品展示 <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="#feature-tab" data-tab="tab-chrome">房价地图</a></li>
-                        <li><a href="#feature-tab" data-tab="tab-firefox">Firefox</a></li>
-                        <li><a href="#feature-tab" data-tab="tab-safari">Safari</a></li>
-                        <li><a href="#feature-tab" data-tab="tab-opera">Opera</a></li>
-                        <li><a href="#feature-tab" data-tab="tab-ie">IE</a></li>
-                    </ul>
+                    <a href="#tab-content" class="dropdown-toggle" data-toggle="dropdown">作品展示 </a>
+                    
                 </li>
-                <li><a href="#" data-toggle="modal" data-target="#about-modal">关于</a></li>
+                <li><a href="#about" data-toggle="modal" data-target="#about-modal">关于</a></li>
             </ul>
         </div>
     </div>
@@ -275,6 +269,16 @@
 
             <p><a class="btn btn-default" href="#" role="button">点我下载</a></p>
         </div>
+
+        <div class="col-md-4">
+            <img class="img-circle" src="images/safari-logo-small.jpg" alt="safari">
+
+            <h2>Safari</h2>
+
+            <p>Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器。</p>
+
+            <p><a class="btn btn-default" href="#" role="button">点我下载</a></p>
+        </div>
     </div>
 
     <!-- 特性 -->
@@ -289,7 +293,7 @@
         <li><a href="#tab-ie" role="tab" data-toggle="tab">IE</a></li>
     </ul>
 
-    <div class="tab-content">
+    <div class="tab-content" id="tab-content">
         <div class="tab-pane active" id="tab-chrome">
             <div class="row feature">
                 <div class="col-md-7">
@@ -305,6 +309,46 @@
                          alt="Chrome">
                 </div>
             </div>
+            <div class="row" id="summary-container">
+                            <div class="col-md-4">
+                                <img class="img-circle" src="images/chrome-logo-small.jpg" alt="chrome">
+
+                                <h2>Chrome</h2>
+
+                                <p>Google Chrome，又称Google浏览器，是一个由Google（谷歌）公司开发的网页浏览器。</p>
+
+                                <p><a class="btn btn-default" href="#" role="button">点我下载</a></p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-circle" src="images/firefox-logo-small.jpg" alt="firefox">
+
+                                <h2>Firefox</h2>
+
+                                <p>Mozilla Firefox，中文名通常称为“火狐”或“火狐浏览器”，是一个开源网页浏览器。</p>
+
+                                <p><a class="btn btn-default" href="#" role="button">点我下载</a></p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-circle" src="images/safari-logo-small.jpg" alt="safari">
+
+                                <h2>Safari</h2>
+
+                                <p>Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器。</p>
+
+                                <p><a class="btn btn-default" href="#" role="button">点我下载</a></p>
+                            </div>
+
+                            <div class="col-md-4">
+                                <img class="img-circle" src="images/safari-logo-small.jpg" alt="safari">
+
+                                <h2>Safari</h2>
+
+                                <p>Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器。</p>
+
+                                <p><a class="btn btn-default" href="#" role="button">点我下载</a></p>
+                            </div>
+            </div>
+
         </div>
         <div class="tab-pane" id="tab-firefox">
             <div class="row feature">
@@ -321,6 +365,47 @@
                         使用Gecko引擎（非ie内核），支持多种操作系统如Windows、Mac和linux。</p>
                 </div>
             </div>
+
+            <div class="row" id="summary-container">
+                            <div class="col-md-4">
+                                <img class="img-circle" src="images/chrome-logo-small.jpg" alt="chrome">
+
+                                <h2>Chrome</h2>
+
+                                <p>Google Chrome，又称Google浏览器，是一个由Google（谷歌）公司开发的网页浏览器。</p>
+
+                                <p><a class="btn btn-default" href="#" role="button">点我下载</a></p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-circle" src="images/firefox-logo-small.jpg" alt="firefox">
+
+                                <h2>Firefox</h2>
+
+                                <p>Mozilla Firefox，中文名通常称为“火狐”或“火狐浏览器”，是一个开源网页浏览器。</p>
+
+                                <p><a class="btn btn-default" href="#" role="button">点我下载</a></p>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-circle" src="images/safari-logo-small.jpg" alt="safari">
+
+                                <h2>Safari</h2>
+
+                                <p>Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器。</p>
+
+                                <p><a class="btn btn-default" href="#" role="button">点我下载</a></p>
+                            </div>
+
+                            <div class="col-md-4">
+                                <img class="img-circle" src="images/safari-logo-small.jpg" alt="safari">
+
+                                <h2>Safari</h2>
+
+                                <p>Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器。</p>
+
+                                <p><a class="btn btn-default" href="#" role="button">点我下载</a></p>
+                            </div>
+            </div>
+
         </div>
         <div class="tab-pane" id="tab-safari">
             <div class="row feature">
@@ -370,26 +455,24 @@
             </div>
         </div>
     </div>
+    
+    <hr class="feature-divider">
+    
+    <div class="row feature" id="about">
+        <div class="col-md-5">
+            <img class="feature-image img-responsive" src="images/firefox-logo.jpg"
+                 alt="Firefox">
+        </div>
+        <div class="col-md-7">
 
-    <!-- 关于 -->
-    <div class="modal fade" id="about-modal" tabindex="-1" role="dialog" aria-labelledby="modal-label"
-         aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal"><span
-                            aria-hidden="true">&times;</span><span class="sr-only">关闭</span></button>
-                    <h4 class="modal-title" id="modal-label">关于</h4>
-                </div>
-                <div class="modal-body">
-                    <p>复旦数据新闻工作坊。</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">了解了</button>
-                </div>
-            </div>
+            <h2 class="feature-heading">Mozilla Firefox <span class="text-muted">美丽的狐狸</span>
+            </h2>
+
+            <p class="lead">Mozilla Firefox，中文名通常称为“火狐”或“火狐浏览器”，是一个开源网页浏览器，
+                使用Gecko引擎（非ie内核），支持多种操作系统如Windows、Mac和linux。</p>
         </div>
     </div>
+
 
 
     <footer>
@@ -410,12 +493,14 @@
             var tabId = $(this).attr('data-tab');
             if ('#' !== href) {
                 e.preventDefault();
-                $(document).scrollTop($(href).offset().top - 70);
+                $(document).scrollTop($(href).offset().top-100);
                 if (tabId) {
                     $('#feature-tab a[href=#' + tabId + ']').tab('show');
                 }
             }
         });
+
+
     });
 </script>
 </body>
